@@ -8,6 +8,7 @@ public class EvernotePlaygroundApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EvernotePlaygroundApplication.class, args);
+		EvernoteAuth.authenticate();
 	}
 
 }
